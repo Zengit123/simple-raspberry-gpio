@@ -1,2 +1,19 @@
-# simple-raspberry-gpio
-A single file C++ program to control Raspberry Pi GPIO that is simple to implement.
+## simple-raspberry-gpio is for those who want simple control of Raspberry Pi GPIO pins without spending time setting up dependencies.
+This is a single file C++ program that does not need additional libraries, making it easy to install and use.
+After a simple setup, you will be able to manually control GPIO pins through command-line interface (terminal) or include it in other programs/protocols such as Bash, Python, C++, Crontab, SSH, etc.
+
+Do not use this program for high-speed control of GPIO pins, give it at least 0.1 seconds to execute.
+
+## How to use
+After installing, you will be able to control GPIO pins in command-line interface (terminal) following this fashion:
+> simplegpio [COMMAND] [PIN_NUMBER] [OPTION]
+
+#### Commands
+* *export [PIN_NUMBER]* - a pin must be exported before use, otherwise it will not work.
+* *unexport [PIN_NUMBER]* - sets output to *0* and pin mode to *in*, then unexports it. Although not obligatory, it is recommended to do this if a pin is no longer used.
+* *getmode [PIN_NUMBER]* - prints pin mode to console as either *in* or *out*.
+* *setmode [PIN_NUMBER] [ in | out ]* - sets pin mode.
+* *read [PIN_NUMBER]* - prints pin value to console as either *0* or *1*.
+* *write [PIN_NUMBER] [ low | high ]* - sets pin output value.
+
+
