@@ -1,8 +1,8 @@
-## simple-raspberry-gpio is for those who want simple control of Raspberry Pi GPIO pins without spending time setting up dependencies.
+## simple-raspberry-gpio is for those who want simple control of Raspberry-Pi GPIO pins without spending time setting up dependencies.
 This is a single file C++ program that does not need additional libraries, making it easy to install and use.
-After a simple setup, you will be able to manually control GPIO pins through command-line interface (terminal) or include it in other programs/protocols such as Bash, Python, C++, Crontab, SSH, etc.
+After a simple setup, you will be able to manually control GPIO pins through command-line interface (terminal) or include it in other programs such as Bash, Python, C++, Crontab, SSH, etc.
 
-Do not use this program for high-speed control of GPIO pins, give it at least 0.1 seconds to execute.
+Do not use this program for high-speed control of GPIO pins, give it at least 0.1 seconds to execute, PWM is not supported.
 
 ## How to use
 After installing, you will be able to control GPIO pins in command-line interface (terminal) following this fashion:
