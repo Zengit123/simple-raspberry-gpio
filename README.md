@@ -39,7 +39,7 @@ Compile the program:
 
 Now you can safely remove the downloaded files to declutter home directory, program is already installed:
 > cd .. <br>
-> rm -rf ~/simple-raspberry-gpio <br>
+> rm -rf simple-raspberry-gpio <br>
 
 #### Uninstalling
 If you wish to remove this command-line utility, simply run:
