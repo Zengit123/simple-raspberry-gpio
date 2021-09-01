@@ -42,5 +42,5 @@ Now you can safely remove the downloaded files to declutter home directory, prog
 > rm -rf simple-raspberry-gpio <br>
 
 #### Uninstalling
-If you wish to remove this command-line utility, simply run:
+If you wish to uninstall this program, simply run:
 > sudo rm /bin/simplegpio
