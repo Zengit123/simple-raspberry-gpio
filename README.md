@@ -29,10 +29,12 @@ After installing, you will be able to control GPIO pins in command-line interfac
 > simplegpio unexport<br>
 
 ## Installing
-Download the *gpio_control.cpp* file to your Raspberry-Pi either directly from github repository or using command-line git:
+Download the *gpio_control.cpp* file to your Raspberry-Pi either directly from github repository or using command-line git, then enter it:
 > cd ~ <br>
 > git clone https://github.com/Zengit123/simple-raspberry-gpio.git <br>
 > cd simple-raspberry-gpio <br>
+
+Compile the program:
 > sudo g++ gpio_control.cpp -o /bin/simplegpio <br>
 
 Now you can safely remove the downloaded files to declutter home directory, program is already installed:
