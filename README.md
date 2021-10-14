@@ -31,7 +31,7 @@ After installing, you will be able to control GPIO pins in command-line interfac
 ## Installing
 Download this repository to your Raspberry-Pi either directly from github or using command-line git, then enter it:
 > cd ~ <br>
-> git clone https://github.com/Zengit123/simple-raspberry-gpio.git <br>
+> git clone https://github.com/edvinsmineikis/simple-raspberry-gpio.git <br>
 > cd simple-raspberry-gpio <br>
 
 Compile the program:
